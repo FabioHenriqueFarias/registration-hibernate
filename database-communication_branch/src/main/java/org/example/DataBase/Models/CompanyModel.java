@@ -10,25 +10,6 @@ public class CompanyModel implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-<<<<<<< HEAD
-=======
-    public String getComapanyName() {
-        return comapanyName;
-    }
-
-    public void setComapanyName(String comapanyName) {
-        this.comapanyName = comapanyName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
->>>>>>> 27c5454 (update)
     @Column(name = "ComapanyName")
     private String comapanyName;
 

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>requisicoes-listener_branch</artifactId>
+    <artifactId>database-communication_branch</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -36,23 +36,6 @@
             <version>6.3.0.Final</version>
         </dependency>
 
-<<<<<<< HEAD
-=======
-        <dependency>
-            <groupId>javax.json</groupId>
-            <artifactId>javax.json-api</artifactId>
-            <version>1.1.4</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>javax.json</artifactId>
-            <version>1.1.4</version>
-        </dependency>
-
-
-
->>>>>>> 27c5454 (update)
     </dependencies>
 
 </project>
